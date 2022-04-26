@@ -1,0 +1,51 @@
+.menu{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+   justify-content: center;
+   width: 70rem;
+   margin: auto;
+   margin-top: 30px;
+   grid-gap: 20px;
+}
+
+.menuitem{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1 , 1fr);
+    
+}
+.title{
+    display: flex;
+   justify-content: space-between;
+   border-bottom:2px dotted rgb(126, 173, 214);
+  
+   padding-bottom: -40px;
+}
+.title h3{
+    color: #3d4042;
+}
+.price {
+    color:#c59d5f ;
+    
+}
+.para{
+    text-align: left;
+    margin-top: 10px;
+}
+.para p{
+    color:#617D98;
+
+}
+
+.img {
+     border: 5px solid  #c59d5f;
+    margin: 10px;
+    display: flex;
+   
+}
+.img img{
+ object-fit:cover ;
+ height: 160px;
+ width: 100%;
+}
