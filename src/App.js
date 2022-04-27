@@ -5,9 +5,6 @@ import { Route, Routes } from 'react-router-dom';
 import Breakfast from './Components/Breakfast';
 import Lunch from './Components/Lunch';
 import Shakes from './Components/Shakes'
-import Home from './Components/Home';
-
-
 
 function App() {
   
@@ -17,7 +14,7 @@ function App() {
       
       <main>
         <Routes>
-          <Route path="/" element={<Home/>}></Route>
+          <Route path="/" element={<All/>}></Route>
           <Route path="/all" element={<All />}></Route>
           <Route path="/breakfast" element={<Breakfast />}></Route>
           <Route path='/lunch' element={<Lunch />}></Route>
